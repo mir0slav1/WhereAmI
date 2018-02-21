@@ -84,7 +84,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         permissions.add(Manifest.permission.ACCESS_FINE_LOCATION);
         permissions.add(Manifest.permission.ACCESS_COARSE_LOCATION);
 
-        permissionUtils.check_permission(permissions,"Need GPS permission for getting your location",1);
+        permissionUtils.check_permission(permissions,"Need GPS permission to get your location",1);
 
         mRequestingLocationUpdates = false;
 
